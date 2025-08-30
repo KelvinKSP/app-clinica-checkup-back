@@ -1,4 +1,4 @@
-package br.com.appcheckup.appcheckup;
+package br.com.appcheckup;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
