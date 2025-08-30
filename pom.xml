@@ -13,9 +13,9 @@
         <relativePath/>
     </parent>
 
-    <groupId>br.com.appcheckup</groupId>
+    <groupId>br.com</groupId>
     <artifactId>appcheckup</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <name>AppCheckup</name>
     <description>Backend da API para o APP Mobile da Clínica Check-Up</description>
 
