@@ -1,9 +1,13 @@
-package com.example.appcheckup.controller;
+package br.com.appcheckup.controller;
 
-import com.example.appcheckup.model.Pessoa;
-import com.example.appcheckup.repository.PessoaRepository;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import br.com.appcheckup.model.Pessoa;
+import br.com.appcheckup.repository.PessoaRepository;
 
 @RestController
 @RequestMapping("/pessoas")
