@@ -15,7 +15,7 @@
 
     <groupId>br.com</groupId>
     <artifactId>appcheckup</artifactId>
-    <version>1.0.3</version>
+    <version>1.1.0</version>
     <name>AppCheckup</name>
     <description>Backend da API para o APP Mobile da Clínica Check-Up</description>
 
