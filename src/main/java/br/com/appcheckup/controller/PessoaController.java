@@ -8,6 +8,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 import br.com.appcheckup.model.Pessoa;
 import br.com.appcheckup.repository.PessoaRepository;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+
 
 @RestController
 @RequestMapping("/pessoas")
@@ -19,7 +22,13 @@ public class PessoaController {
         this.repository = repository;
     }
 
-    @PostMapping("/pessoas/criar")
+    @GetMapping("/")
+    public String getMethodName(@RequestParam String param) {
+        return new String();
+    }
+    
+
+    @PostMapping("/criar")
     public ResponseEntity<Pessoa> criarPessoa(@RequestBody Pessoa pessoa) {
         Pessoa salva = repository.save(pessoa);
         return ResponseEntity.ok(salva);
