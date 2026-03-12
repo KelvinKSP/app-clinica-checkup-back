@@ -14,7 +14,7 @@
 
 	<groupId>br.com.clinicacheckup</groupId>
 	<artifactId>appcheckup</artifactId>
-	<version>1.1.0</version>
+	<version>1.2.0</version>
 	<name>appcheckup</name>
 	<description>Backend da aplicação da Clínica Checkup</description>
 
