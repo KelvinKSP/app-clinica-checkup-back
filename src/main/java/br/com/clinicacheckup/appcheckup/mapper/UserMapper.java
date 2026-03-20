@@ -14,8 +14,10 @@ public class UserMapper {
         return User.builder()
                 .name(request.getName())
                 .email(request.getEmail())
-                .password(request.getPassword()) // Em prod, deve ser criptografada
-                .role(request.getRole())
+                .password(request.getPassword())
+                .cpf(request.getCpf())
+                .phoneNumber(request.getPhoneNumber())
+                .birthDate(request.getBirthDate())
                 .build();
     }
 }
